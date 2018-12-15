@@ -1,0 +1,115 @@
+#grad {
+    background-image: linear-gradient(black, blue);
+    width: 100%;
+    height: 900px;
+}
+
+#titlediv {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+#nowdiv {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#nowplaying {
+    width: 135px;
+    height: 85;
+}
+
+#movieDiv {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#movieposter {
+    width: 200px;
+    height: 85;
+}
+
+#reserveDiv {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#reservebtn {
+    width: 200px;
+    height: 35;
+}
+
+#Screendiv {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border: 1px;
+    border-color: white;
+    width: 100%;
+    height: 23px;
+    border-style: solid;
+}
+
+#row1 {
+    text-align: center;
+    width: 100%;
+}
+
+#row2 {
+    text-align: center;
+    width: 100%;
+}
+
+#row3 {
+    text-align: center;
+    width: 100%;
+}
+
+#row4 {
+    text-align: center;
+    width: 100%;
+}
+
+#centerDiv {
+    display: inline-block;
+}
+
+
+.seat{
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border: 1px;
+    border-color: white;
+    width: 20px;
+    height: 20px;
+    border-style: dashed;
+    background-color: grey;
+    margin-left: 1px;
+    margin-top: 10px;
+    float: left;
+}
+
+.stairs{
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+    margin-top: 10px;
+    float: left;
+}
+
+#reserveSeatDiv {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#reserveseatbtn {
+    width: 200px;
+    height: 35;
+}
+

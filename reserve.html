@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Mikes Grills 
+	CIT 261	
+-->
+<html>
+	<head>
+		<title>Reserve Your Seat</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/mysite.js" ></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$( window ).load(function() {
+				loadSeats();
+    		});
+		</script>			
+	</head>
+	<body>
+		<div id="grad">
+			<div id="titlediv">Mike's Cinema</div>
+			<div id="Screendiv">Screen</div>
+			<!-- Row 1 -->
+			<div id="row1">
+				<div id="centerDiv">
+					<div id="r11" class="seat" onclick="reserveSeat('r11')">A1</div>
+					<div id="r12" class="seat" onclick="reserveSeat('r12')">A2</div>
+					<div id="r13" class="seat" onclick="reserveSeat('r13')">A3</div>
+					<div id="r14" class="seat" onclick="reserveSeat('r14')">A4</div>
+					<div id="r15" class="seat" onclick="reserveSeat('r15')">A5</div>
+				</div>
+			</div>
+			<!-- Row 2 -->
+			<div id="row2">
+					<div id="centerDiv">
+						<div id="r21" class="seat" onclick="reserveSeat('r21')">B1</div>
+						<div class="stairs"></div>
+						<div id="r22" class="seat" onclick="reserveSeat('r22')">B2</div>
+						<div id="r23" class="seat" onclick="reserveSeat('r23')">B3</div>
+						<div id="r24" class="seat" onclick="reserveSeat('r24')">B4</div>
+						<div id="r25" class="seat" onclick="reserveSeat('r25')">B5</div>
+						<div id="r26" class="seat" onclick="reserveSeat('r26')">B6</div>
+						<div class="stairs"></div>
+						<div id="r27" class="seat" onclick="reserveSeat('r27')">B7</div>
+					</div>
+			</div>
+			<!-- Row 3 -->
+			<div id="row3">
+				<div id="centerDiv">
+					<div id="r31" class="seat" onclick="reserveSeat('r31')">C1</div>
+					<div id="r32" class="seat" onclick="reserveSeat('r32')">C2</div>
+					<div class="stairs"></div>
+					<div id="r33" class="seat" onclick="reserveSeat('r33')">C3</div>
+					<div id="r34" class="seat" onclick="reserveSeat('r34')">C4</div>
+					<div id="r35" class="seat" onclick="reserveSeat('r35')">C5</div>
+					<div id="r36" class="seat" onclick="reserveSeat('r36')">C6</div>
+					<div id="r37" class="seat" onclick="reserveSeat('r37')">C7</div>
+					<div class="stairs"></div>
+					<div id="r38" class="seat" onclick="reserveSeat('r38')">C8</div>
+					<div id="r39" class="seat" onclick="reserveSeat('r39')">C9</div>
+				</div>
+			</div>
+			<!-- Row 4 -->
+			<div id="row4">
+				<div id="centerDiv">
+					<div id="r41" class="seat" onclick="reserveSeat('r41')">D1</div>
+					<div id="r42" class="seat" onclick="reserveSeat('r42')">D2</div>
+					<div class="stairs"></div>
+					<div id="r43" class="seat" onclick="reserveSeat('r43')">D3</div>
+					<div id="r44" class="seat" onclick="reserveSeat('r44')">D4</div>
+					<div id="r45" class="seat" onclick="reserveSeat('r45')">D5</div>
+					<div id="r46" class="seat" onclick="reserveSeat('r46')">D6</div>
+					<div id="r47" class="seat" onclick="reserveSeat('r47')">D7</div>
+					<div class="stairs"></div>
+					<div id="r48" class="seat" onclick="reserveSeat('r48')">D8</div>
+					<div id="r49" class="seat" onclick="reserveSeat('r49')">D9</div>
+				</div>
+			</div>
+			<div id="reserveSeatDiv">
+				<a href="index.html"><img id="reserveseatbtn" src="img/reserve-seat.png" onclick="saveSelectedSeats()"></a>
+			</div>			
+		</div>			
+	</body>
+</html>
